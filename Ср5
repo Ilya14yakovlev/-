@@ -1,0 +1,9 @@
+#include <vector>
+
+std::vector<int> addValueToVector(const std::vector<int>& vec, int n) {
+    std::vector<int> result;
+    for (int num : vec) {
+        result.push_back(num + n);
+    }
+    return result;
+}
